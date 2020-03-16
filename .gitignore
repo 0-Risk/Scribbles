@@ -17,3 +17,5 @@ healthid_db
 venv
 staticfiles
 .editorconfig
+Pipfile
+Pipfile.lock
