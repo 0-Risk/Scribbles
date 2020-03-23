@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'scribbles.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.env("NAME"),
-        'USER' : os.env("USER"),
-        'PASSWORD' : os.env("PASSWORD"),
-        'HOST' : os.env("HOST"),
-        'PORT' : os.env("PORT")
+        'NAME': os.getenv("NAME"),
+        'USER' : os.getenv("USER"),
+        'PASSWORD' : os.getenv("PASSWORD"),
+        'HOST' : os.getenv("HOST"),
+        'PORT' : os.getenv("PORT")
 
     }
 }
