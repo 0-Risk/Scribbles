@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/0-Risk/Scribbles.git
+	fetch = +refs/heads/dev:refs/remotes/origin/dev
+[branch "dev"]
+	remote = origin
+	merge = refs/heads/dev
+[branch "dotenv"]
+	remote = origin
+	merge = refs/heads/dotenv
