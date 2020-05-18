@@ -12,6 +12,8 @@ psycopg2 = "*"
 coveralls = "*"
 coverage = "*"
 flake8 = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.7"
