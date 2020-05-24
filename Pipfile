@@ -11,10 +11,12 @@ python-dotenv = "*"
 psycopg2 = "*"
 coveralls = "*"
 coverage = "*"
+flake8 = "*"
 pylint = "*"
 pep8 = "*"
 pycodestyle = "*"
 pylint-django = "*"
+
 
 [requires]
 python_version = "3.7"
